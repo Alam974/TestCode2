@@ -2,7 +2,7 @@ provider "azurerm" {
   features {}
   subscription_id = "08a0553e-c405-4797-8f3c-4ea48da302a9"
 }
-
+#testing for comment added in main.tf
 resource "azurerm_resource_group" "rg" {
   name     = var.resource_group_name
   location = var.location
